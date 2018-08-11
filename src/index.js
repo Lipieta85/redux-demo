@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App.js';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import { reducer } from './reducer.js';
-import { addComment } from './actions.js';
+import { reducer } from './store/reducer.js';
+import { addComment } from './store/actions.js';
 import DevTools from './DevTools';
 
 const store = createStore(
