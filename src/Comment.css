@@ -1,0 +1,14 @@
+li {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #CCC ;
+    list-style-type: none;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(2, 163, 2);
+    color: #FFF;
+}
